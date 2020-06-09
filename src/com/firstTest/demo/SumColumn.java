@@ -2,7 +2,7 @@ package com.firstTest.demo;
 
 import java.util.Scanner;
 
-public class sumColumn {
+public class SumColumn {
     public static void main(String[] args) {
         double[][] nums = new double[3][4];
         Scanner input = new Scanner(System.in);

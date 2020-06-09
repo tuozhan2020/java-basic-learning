@@ -2,7 +2,7 @@ package com.firstTest.demo;
 
 import javax.sound.midi.SysexMessage;
 
-public class testMax {
+public class TestMax {
     public static void main(String[] args) {
         int i = 5 ,j = 2 ,k = max(i,j);
         System.out.println("最大值是:"+ k);
