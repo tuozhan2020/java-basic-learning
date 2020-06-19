@@ -1,9 +1,9 @@
 package com.firstTest.demo;
 import java.io.PrintWriter;
 
-public class writeData {
+public class WriteData {
     public static void main(String[] args) {
-        java.io.File file = new java.io.File("scores.txt");
+        java.io.File file = new java.io.File("scores-tmp.txt");
         if ( file.exists()){
             System.out.println("File already exists");
             System.exit(1);
